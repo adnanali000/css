@@ -10,6 +10,7 @@ body{
 */
 
 /* clipping */
+/*
 body > #bg{
 
     height: 100%;
@@ -19,3 +20,88 @@ body > #bg{
     position: absolute;
     z-index: -1;
 }
+*/
+
+/* Annimation */
+
+/*
+@keyframes blink{
+    0%{
+        background-color: violet;
+    }
+    14%{
+        background-color: darkblue;
+    }
+    30%{
+        background-color: darkcyan;
+    }
+    42%{
+        background-color: green;
+    }
+    60%{
+        background-color: yellow;
+    }
+    78%{
+        background-color: red;
+    }
+    85%{
+        background-color: pink;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+
+@-webkit-keyframes blink{
+    0%{
+        background-color: violet;
+    }
+    14%{
+        background-color: darkblue;
+    }
+    30%{
+        background-color: darkcyan;
+    }
+    42%{
+        background-color: green;
+    }
+    60%{
+        background-color: yellow;
+    }
+    78%{
+        background-color: red;
+    }
+    85%{
+        background-color: pink;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+}
+
+*/
+
+            /* Gradient */
+
+ html{
+     height: 100%;
+
+ }   
+ body{
+     height: 100%;
+     background: lightskyblue;
+     background: radial-gradient(
+         circle,
+         rgba(70,183,167,1)0%,
+         rgba(55,80,219,1)100%
+     );
+ }        
